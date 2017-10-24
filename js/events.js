@@ -11,7 +11,9 @@ var submitIt = function(){
   alert('Your form is going to be submitted now.');
 }
 
-
+var pressIt = function(){
+  alert('pressed G');
+}
 
 $(document).ready(function(){
 
