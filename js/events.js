@@ -25,5 +25,5 @@ $(document).ready(function(){
   $('p').click(getIt);
   $('img').on('load', frameIt);
   $(':submit').submit(submitIt);
-  $('#typing').on('keydown', pressIt);
+  $('#typing').on('keydown', pressIt;
 });
