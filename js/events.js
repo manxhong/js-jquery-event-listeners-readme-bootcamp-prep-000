@@ -11,7 +11,7 @@ var submitIt = function(){
   alert('Your form is going to be submitted now.');
 }
 
-var pressIt = function(){
+var pressIt = function(key){
   if(key.which == 71) {
     alert('g was pressed');
   }
