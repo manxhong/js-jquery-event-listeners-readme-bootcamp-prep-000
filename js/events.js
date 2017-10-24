@@ -18,5 +18,5 @@ $(document).ready(function(){
 // call functions here
   $('p').click(getIt);
   $('img').on('load', frameIt);
-  $(':submit').on('submit', submitIt);
+  $(':submit').submit(submitIt);
 });
