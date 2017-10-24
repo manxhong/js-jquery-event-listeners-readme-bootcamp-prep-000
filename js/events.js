@@ -8,6 +8,6 @@
 $(document).ready(function(){
 
 // call functions here
-  $('p').click(function(){
+  $('p').on('clicked', function(){
     alert('hey'););
 });
