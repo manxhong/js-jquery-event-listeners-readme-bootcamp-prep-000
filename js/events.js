@@ -3,8 +3,10 @@ var getIt = function(){
   alert('hey');
 }
 
+$('p').click(getIt());
+
 $(document).ready(function(){
 
 // call functions here
-  $('p').click(getIt());
+  
 });
