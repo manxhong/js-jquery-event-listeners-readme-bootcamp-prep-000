@@ -14,9 +14,7 @@ var submitIt = function(){
 var pressIt = function(key){
   if(key.which === 71) {
     alert('pressed G');
-    return;
   }
-  return;
 }
 
 $(document).ready(function(){
