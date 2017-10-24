@@ -13,7 +13,7 @@ var submitIt = function(){
 
 var pressIt = function(key){
   if(key.which === 71) {
-    alert('pressed G');
+    alert('g was pressed');
   }
 }
 
