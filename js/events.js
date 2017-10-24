@@ -11,8 +11,12 @@ var submitIt = function(){
   alert('Your form is going to be submitted now.');
 }
 
-var pressIt = function(){
-  alert('pressed G');
+var pressIt = function(key){
+  if(key.which === 71) {
+    alert('pressed G');
+    return;
+  }
+  return;
 }
 
 $(document).ready(function(){
