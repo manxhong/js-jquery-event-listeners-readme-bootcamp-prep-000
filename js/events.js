@@ -6,5 +6,5 @@ $(document).ready(function(){
 var getIt = function(){
   alert('hey');
 }
-  $('p').on('clicked', getIt());
+  $('p').click(getIt());
 });
