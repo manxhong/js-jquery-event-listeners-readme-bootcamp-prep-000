@@ -8,5 +8,5 @@ $('p').click(getIt());
 $(document).ready(function(){
 
 // call functions here
-  
+
 });
