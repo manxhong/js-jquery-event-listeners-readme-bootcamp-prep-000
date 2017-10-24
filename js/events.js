@@ -1,8 +1,8 @@
-//define functions here
-var getIt = function(){
-  alert('hey');
-}
-
+// //define functions here
+// var getIt = function(){
+//   alert('hey');
+// }
+// 
 
 
 $(document).ready(function(){
