@@ -7,6 +7,10 @@ var frameIt = function(){
   $('img').addClass('tasty');
 }
 
+var submitIt = function(){
+  alert('Your form is going to be submitted now.');
+}
+
 
 
 $(document).ready(function(){
