@@ -12,7 +12,7 @@ var submitIt = function(){
 }
 
 var pressIt = function(key){
-  if(key.which == 71) {
+  if(key.which === 71) {
     alert('g was pressed');
   }
 }
@@ -23,5 +23,5 @@ $(document).ready(function(){
   $('p').click(getIt);
   $('img').on('load', frameIt);
   $(':submit').submit(submitIt);
-  $('#typing').on('keydown', pressIt;
+  $('#typing').on('keydown', pressIt);
 });
